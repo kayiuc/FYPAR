@@ -17,7 +17,7 @@ public class GameManager : MonoBehaviour {
         isEndGame = isStartEndGame = false;
         players = GameObject.FindGameObjectsWithTag("Player");
         playerData = GameObject.Find("PlayerData").GetComponent<PlayerData>();
-        GameObject character = PhotonNetwork.Instantiate(charactersName[(int)playerData.GetSelectedCharacter()], new Vector3(Random.Range(0, 50), 0, 0), Quaternion.identity, 0);
+        GameObject character = PhotonNetwork.Instantiate(charactersName[(int)playerData.GetSelectedCharacter()], new Vector3(Random.Range(0, 10), 0, 0), Quaternion.identity, 0);
         character.GetComponent<CharacterAbility>().EquipWeapon(playerData.GetWeapon());
         character.GetComponent<CharacterAbility>().EquipArmor(playerData.GetArmor());
         endGameCanvas.SetActive(false);

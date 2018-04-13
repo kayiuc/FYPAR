@@ -70,13 +70,13 @@ public class CharacterAbility : Photon.PunBehaviour
         }   
     }
 
-    private void AddCoins()
-    {
-        coins += 1;
-        coinsText.text = "coins: " + coins.ToString();
-        Invoke("AddCoins", 1f);
+	private void AddCoins()
+	{
+		coins += 1;
+		coinsText.text = "coins: " + coins.ToString();
+		Invoke("AddCoins", 1f);
 
-    }
+	}
 
 
     private void CharacterDie()
@@ -99,7 +99,7 @@ public class CharacterAbility : Photon.PunBehaviour
         hp = (int)startHP;
         healthBar.fillAmount = 1;
         gameObject.SetActive(true);
-        gameObject.transform.position = new Vector3(Random.Range(0, 50), 0, 0);
+        gameObject.transform.position = new Vector3(Random.Range(0, 0), 0, 0);
     }
 
     public void CharacterEndGame()

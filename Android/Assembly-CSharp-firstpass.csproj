@@ -134,19 +134,19 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
  <Reference Include="Photon3Unity3D">
- <HintPath>/Users/user/Documents/FYP_v3/Android/Assets/Plugins/Photon3Unity3D.dll</HintPath>
+ <HintPath>/Users/user/Documents/FYP_v3ar/Android/Assets/Plugins/Photon3Unity3D.dll</HintPath>
  </Reference>
  <Reference Include="websocket-sharp">
- <HintPath>/Users/user/Documents/FYP_v3/Android/Assets/Plugins/WebSocket/websocket-sharp.dll</HintPath>
+ <HintPath>/Users/user/Documents/FYP_v3ar/Android/Assets/Plugins/WebSocket/websocket-sharp.dll</HintPath>
  </Reference>
  <Reference Include="TextMeshPro-5.6-1.0.56-Editor">
- <HintPath>/Users/user/Documents/FYP_v3/Android/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-5.6-1.0.56-Editor.dll</HintPath>
+ <HintPath>/Users/user/Documents/FYP_v3ar/Android/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-5.6-1.0.56-Editor.dll</HintPath>
  </Reference>
  <Reference Include="TextMeshPro-5.6-1.0.56-Runtime">
- <HintPath>/Users/user/Documents/FYP_v3/Android/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-5.6-1.0.56-Runtime.dll</HintPath>
+ <HintPath>/Users/user/Documents/FYP_v3ar/Android/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-5.6-1.0.56-Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Vuforia.UnityExtensions">
- <HintPath>/Users/user/Documents/FYP_v3/Android/Assets/Vuforia/Scripts/Internal/Vuforia.UnityExtensions.dll</HintPath>
+ <HintPath>/Users/user/Documents/FYP_v3ar/Android/Assets/Vuforia/Scripts/Internal/Vuforia.UnityExtensions.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
